@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Inicio</title>
+	</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body{background: url(img/back8.jpg); background-size: 100% 100%;}
+		.menu{background: rgba(112, 111, 111, 0.5); /*border: 5px solid black;*/ position: fixed; bottom: 0; left: 0; width: 100vw; padding: 1%; /*box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.6);*/ display: flex; justify-content: space-around; align-items: center;}
+		.btn{cursor: pointer;}
+		.btn:hover{animation: vibration 0.8s;}
+		@keyframes vibration {
+		  0%{transform: scaleY(0.5);}
+		  30%{transform: scaleY(1);}
+		  60%{transform: scaleY(0.5);}
+		  100%{transform: scaleY(1);}
+		}
+	</style>
+	<body>
+		<div class="menu">
+			<button type="button" class="btn btn-outline-light btn-lg">HOME</button>
+			<button type="button" class="btn btn-outline-light btn-lg">TESTE</button>
+			<button type="button" class="btn btn-outline-light btn-lg">Serviços</button>
+			<button type="button" class="btn btn-outline-light btn-lg">Chat</button>
+		</div>
+	</body>
+</html>
